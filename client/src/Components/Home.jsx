@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { jwtDecode } from 'jwt-decode';
-import Search from './Search/search';
+import Search from './Search/Search';
 import Navbar from './Common/Navbar';
 import GetRecentAdd from './Dashboard/recentlyadd';
 import main from "../../public/main.webp";
