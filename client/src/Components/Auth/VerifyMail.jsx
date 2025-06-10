@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { useNavigate, Link } from "react-router-dom";
 import { setSignupData, setLoading, setUserDetails } from "../../../Redux/Slices/userSlice.js";
 import axios from "axios";
-import Spinner from "../Common/spinner";
+import Spinner from "../Common/Spinner";
 
 const VerifyMail = () => {
     const [otp, setOtp] = useState(new Array(6).fill(""));
