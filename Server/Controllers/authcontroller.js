@@ -1,6 +1,6 @@
 const jwt = require('jsonwebtoken');
-const User = require('../models/User');
-const OTP = require('../models/OTP');
+const User = require('../Models/user');
+const OTP = require('../Models/OTP');
 const otpGenerator = require("otp-generator");
 
 const dotenv = require('dotenv');
